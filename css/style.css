@@ -1,0 +1,36 @@
+.botoes{
+    display: grid;
+    
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+.botoes button{
+    border-radius: 13px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    height: 60px;
+    font-size: 40px;
+    
+}
+.display input{
+    height: 60px;
+    margin-bottom: 10px;
+    width: 400px;
+    border-radius: 13px;
+    border-color: black;
+    background-color: white;
+}
+.botoes button:active{
+    border-color: rgb(255, 0, 0);
+}
+.botoes button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+.calculadora{
+    font-size: 25px;
+}
